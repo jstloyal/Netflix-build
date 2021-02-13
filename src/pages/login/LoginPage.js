@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
+import SignUpPage from '../sign-up/SignUp';
 
 import './LoginPage.css';
 
 function LoginPage() {
   const [signIn, setSignIn] = useState(false);
-
-  // useEffect(() => {})
 
   return (
     <div className="login-page">
